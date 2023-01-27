@@ -56,12 +56,14 @@ Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this 
         <deduccion tipo="otras" porcentaje=""></deduccion>
     </deducciones>
     <basesSS>
-        <IT></IT>
-        <remuneracionMensual></remuneracionMensual>
-        <prorrPE></prorrPE>
-        <CP></CP>
-        <horasExtra></horasExtra>
-        <IRPF></IRPF>
+        <contingenciasComunes>
+            <base tipo="IT"></base>
+            <base tipo="reMensual"></base>
+            <base tipo="prorrPagaExtra"></base>
+        </contingenciasComunes>
+            <base tipo="continProfesionales"></base>
+            <base tipo="hExtra"></base>
+            <base tipo="IRPF"></base>
     </basesSS>
 </nomina>
 
