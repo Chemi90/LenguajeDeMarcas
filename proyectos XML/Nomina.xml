@@ -25,37 +25,35 @@ Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this 
     <totalDias></totalDias>
     <devengos>
         <perceocionesSalariales>
-            <salarioBase></salarioBase>
-            <complementos></complementos>
-            <horasExtra>
-                <estructurales></estructurales>
-                <ferzaMayor></ferzaMayor>
-            </horasExtra>
-            <gratifiExtra></gratifiExtra>
-            <salarioEspecie></salarioEspecie>
+            <percepcion tipo="salarioBase"></percepcion>
+            <percepcion tipo="compSalariales"></percepcion>
+            <percepcion tipo="horasExtra">
+                <hExtra tipo="estructurales"></hExtra>
+                <hExtra tipo="fMayor"></hExtra>
+            </percepcion>
+            <percepcion tipo="gratificaciones"></percepcion>
+            <percepcion tipo="enEspecie"></percepcion>
         </perceocionesSalariales>
         <percepNoSalariales>
-            <indemni></indemni>
-            <prestEmpresa></prestEmpresa>
-            <prestSS></prestSS>
-            <otras></otras>
+            <percepcion tipo="indem"></percepcion>
+            <percepcion tipo="cargoEmpresa"></percepcion>
+            <percepcion tipo="cargoSS"></percepcion>
+            <percepcion tipo="otras"></percepcion>
         </percepNoSalariales>
         <totalDevengos></totalDevengos>
     </devengos>
     <deducciones>
-        <conceptos>
-            <CcComunes></CcComunes>
-            <desempleo></desempleo>
-            <FP></FP>
-            <horasExtra>
-                <fuerzaMayor></fuerzaMayor>
-                <otras></otras>
-            </horasExtra>
-            <retencionIRPF></retencionIRPF>
-            <anticipos></anticipos>
-            <valorEspecie></valorEspecie>
-            <otras></otras>
-        </conceptos>
+        <deduccion tipo="ccomunes" porcentaje="4,7"></deduccion>
+        <deduccion tipo="desempleo" porcentaje="1,55"></deduccion>
+        <deduccion tipo="FP" porcentaje="0,1"></deduccion>
+        <deduccion>
+            <hExtra tipo="estructurales" porcentaje="4,7"></hExtra>
+            <hExtra tipo="fMayor" porcentaje="2,00"></hExtra>
+        </deduccion>
+        <deduccion tipo="IRPF" porcentaje="13"></deduccion>
+        <deduccion tipo="anticipos" porcentaje=""></deduccion>
+        <deduccion tipo="enEspecie" porcentaje=""></deduccion>
+        <deduccion tipo="otras" porcentaje=""></deduccion>
     </deducciones>
     <basesSS>
         <IT></IT>
