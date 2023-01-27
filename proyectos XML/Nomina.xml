@@ -14,22 +14,22 @@ Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this 
         <CIF></CIF>
     </datosEmpresa>
     <datosTrabajador>
-        <nombre></nombre>
-        <apellidos></apellidos>
-        <categoriaP></categoriaP>
+        <nombre>Luis</nombre>
+        <apellidos>Gutierrez Alonso</apellidos>
+        <categoriaP>Ingeniero</categoriaP>
         <NIF></NIF>
-        <grupoCotizacion></grupoCotizacion>
+        <grupoCotizacion>1</grupoCotizacion>
         <antigüedad></antigüedad>
         <nSS></nSS>
     </datosTrabajador>
-    <totalDias></totalDias>
+    <totalDias>30</totalDias>
     <devengos>
         <perceocionesSalariales>
-            <percepcion tipo="salarioBase"></percepcion>
-            <percepcion tipo="compSalariales"></percepcion>
+            <percepcion tipo="salarioBase">1500</percepcion>
+            <percepcion tipo="compSalariales">192</percepcion>
             <percepcion tipo="horasExtra">
-                <hExtra tipo="estructurales"></hExtra>
-                <hExtra tipo="fMayor"></hExtra>
+                <hExtra tipo="estructurales">60</hExtra>
+                <hExtra tipo="fMayor">100</hExtra>
             </percepcion>
             <percepcion tipo="gratificaciones"></percepcion>
             <percepcion tipo="enEspecie"></percepcion>
@@ -40,17 +40,17 @@ Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this 
             <percepcion tipo="cargoSS"></percepcion>
             <percepcion tipo="otras"></percepcion>
         </percepNoSalariales>
-        <totalDevengos></totalDevengos>
+        <totalDevengos>1852</totalDevengos>
     </devengos>
     <deducciones>
-        <deduccion tipo="ccomunes" porcentaje="4,7"></deduccion>
-        <deduccion tipo="desempleo" porcentaje="1,55"></deduccion>
-        <deduccion tipo="FP" porcentaje="0,1"></deduccion>
-        <deduccion>
-            <hExtra tipo="estructurales" porcentaje="4,7"></hExtra>
-            <hExtra tipo="fMayor" porcentaje="2,00"></hExtra>
+        <deduccion tipo="ccomunes" porcentaje="4,7">91'27</deduccion>
+        <deduccion tipo="desempleo" porcentaje="1,55">32'58</deduccion>
+        <deduccion tipo="FP" porcentaje="0,1">2'10</deduccion>
+        <deduccion tipo="hora extra">
+            <hExtra tipo="estructurales" porcentaje="4,7">2'82</hExtra>
+            <hExtra tipo="fMayor" porcentaje="2,00">2'00</hExtra>
         </deduccion>
-        <deduccion tipo="IRPF" porcentaje="13"></deduccion>
+        <deduccion tipo="IRPF" porcentaje="13">240'76</deduccion>
         <deduccion tipo="anticipos" porcentaje=""></deduccion>
         <deduccion tipo="enEspecie" porcentaje=""></deduccion>
         <deduccion tipo="otras" porcentaje=""></deduccion>
@@ -58,12 +58,12 @@ Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this 
     <basesSS>
         <contingenciasComunes>
             <base tipo="IT"></base>
-            <base tipo="reMensual"></base>
-            <base tipo="prorrPagaExtra"></base>
+            <base tipo="reMensual">1692</base>
+            <base tipo="prorrPagaExtra">250</base>
         </contingenciasComunes>
-            <base tipo="continProfesionales"></base>
-            <base tipo="hExtra"></base>
-            <base tipo="IRPF"></base>
+            <base tipo="continProfesionales">1942</base>
+            <base tipo="hExtra">160</base>
+            <base tipo="IRPF">1852</base>
     </basesSS>
 </nomina>
 
