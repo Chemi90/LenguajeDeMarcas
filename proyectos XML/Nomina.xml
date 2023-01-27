@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<nomina>
+    <datosEmpresa>
+        <nombre></nombre>
+        <domicilio></domicilio>
+        <codigoSS></codigoSS>
+        <CIF></CIF>
+    </datosEmpresa>
+    <datosTrabajador>
+        <nombre></nombre>
+        <apellidos></apellidos>
+        <categoriaP></categoriaP>
+        <NIF></NIF>
+        <grupoCotizacion></grupoCotizacion>
+        <antigüedad></antigüedad>
+        <nSS></nSS>
+    </datosTrabajador>
+    <totalDias></totalDias>
+    <devengos>
+        <perceocionesSalariales>
+            <salarioBase></salarioBase>
+            <complementos></complementos>
+            <horasExtra>
+                <estructurales></estructurales>
+                <ferzaMayor></ferzaMayor>
+            </horasExtra>
+            <gratifiExtra></gratifiExtra>
+            <salarioEspecie></salarioEspecie>
+        </perceocionesSalariales>
+        <percepNoSalariales>
+            <indemni></indemni>
+            <prestEmpresa></prestEmpresa>
+            <prestSS></prestSS>
+            <otras></otras>
+        </percepNoSalariales>
+        <totalDevengos></totalDevengos>
+    </devengos>
+    <deducciones>
+        <conceptos>
+            <CcComunes></CcComunes>
+            <desempleo></desempleo>
+            <FP></FP>
+            <horasExtra>
+                <fuerzaMayor></fuerzaMayor>
+                <otras></otras>
+            </horasExtra>
+            <retencionIRPF></retencionIRPF>
+            <anticipos></anticipos>
+            <valorEspecie></valorEspecie>
+            <otras></otras>
+        </conceptos>
+    </deducciones>
+    <basesSS>
+        <IT></IT>
+        <remuneracionMensual></remuneracionMensual>
+        <prorrPE></prorrPE>
+        <CP></CP>
+        <horasExtra></horasExtra>
+        <IRPF></IRPF>
+    </basesSS>
+</nomina>
+
