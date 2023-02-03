@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<almacen>
+    
+    <productos>
+        
+        <articulo>
+            <nombre>Refresco 1LT</nombre>
+            <precio moneda="euro" iva="21" descuento="10%">1.25</precio>
+            <cantidad>56</cantidad>
+            <descatalogado />
+        </articulo>
+        
+        <articulo>
+            <nombre>Agua 1LT</nombre>
+            <precio>0.85</precio>
+            <cantidad>78</cantidad>
+            <descatalogado></descatalogado>
+        </articulo>
+        
+    </productos>
+    
+</almacen>
+
