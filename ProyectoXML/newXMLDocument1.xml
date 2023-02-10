@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE centro [
+    <!ELEMENT centro (alumnos, profesores) >
+    
+
+    <!ELEMENT alumnos (alumno+) >
+    <!ELEMENT alumno (contacto, info) >
+    
+    <!ELEMENT contacto (nombre, apellidos) >
+    <!ELEMENT nombre (#PCDATA) >
+    <!ELEMENT apellidos (#PCDATA) >
+    
+    <!ELEMENT info (ciclo, matriculacion, modulo+) >
+    <!ElEMENT ciclo (#PCDATA) >
+    <!ElEMENT matriculacion (#PCDATA) >
+    <!ElEMENT modulo (nombre, ciclo?) >
+    <!ATTLIST ciclo modulo CDATA IMPLIED >
+    
+    <!ELEMENT profesores (profesor+) >
+    <!ELEMENT profesor (contacto, modulo+)
+]>
+
+
+<centro>
+    <alumnos>
+        <alumno>
+            <contacto>
+                <nombre></nombre>
+                <apellidos></apellidos>
+            </contacto>
+            <info>
+                <ciclo></ciclo>
+                <matriculacion></matriculacion>
+                <modulo>
+                    <nombre></nombre>
+                    <ciclo></ciclo>
+                <modulo>
+            </info>
+        </alumno>
+    </alumnos>
+    
+    <profesores>
+        <profesor>
+            <contacto>
+                <nombre></nombre>
+                <apellidos></apellidos>
+            </contacto>
+            <modulo>
+                <nombre></nombre>
+                <ciclo></ciclo>
+            </modulo>
+        </profesor>
+    </profesores>
+</centro>
+
+

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+<!--Haz un XML donde pongas los datos de un horario semanal escolar-->
+<horario>
+    <semana>
+        <dia>Lunes</dia>
+        <asignatura>Programacion</asignatura>
+        <hora>8:00</hora>
+    </semana>
+</horario>
+
+<horario>
+    <dia nombre="Lunes">
+        <clase>
+            <hora>8:00</hora>
+            <modulo>Programacion</modulo>
+        </clase>
+        <clase>
+            <hora>9:00</hora>
+            <modulo>Programacion</modulo>
+        </clase>
+        <clase>
+            <hora>10:00</hora>
+            <modulo>Programacion</modulo>
+        </clase>
+        <clase>
+            <hora>11:30</hora>
+            <modulo>Sistemas</modulo>
+        </clase>
+        <clase>
+            <hora>12:30</hora>
+            <modulo>Sistemas</modulo>
+        </clase>
+        <clase>
+            <hora>13:30</hora>
+            <modulo>Sistemas</modulo>
+        </clase>
+    </dia>
+    <dia nombre="Martes">
+        <clase>
+            <hora>8:00</hora>
+            <modulo>FOL</modulo>
+        </clase>
+        <clase>
+            <hora>9:00</hora>
+            <modulo>FOL</modulo>
+        </clase>
+        <clase>
+            <hora>10:00</hora>
+            <modulo>Entornos</modulo>
+        </clase>
+        <clase>
+            <hora>11:30</hora>
+            <modulo>Entornos</modulo>
+        </clase>
+        <clase>
+            <hora>12:30</hora>
+            <modulo>BBDD</modulo>
+        </clase>
+        <clase>
+            <hora>13:30</hora>
+            <modulo>BBDD</modulo>
+        </clase>
+    </dia>
+</horario>
+
+<horario>
+    <ciclo>DAM</ciclo>
+    <curso>Primero</curso>
+    <aula>Taller de administracion</aula>
+    <semana>
+        <dia nombre="Lunes">
+            <clase hora="8:00">Programacion</clase>
+            <clase hora="9:00">Programacion</clase>
+            <clase hora="10:00">Programacion</clase>
+            <clase hora="11:30">Sistemas</clase>
+            <clase hora="12:30">Sistemas</clase>
+            <clase hora="13:30">Sistemas</clase>
+        </dia>
+        <dia nombre="Martes">
+            <clase hora="8:00">FOL</clase>
+            <clase hora="9:00">FOL</clase>
+            <clase hora="10:00">Entornos</clase>
+            <clase hora="11:30">Entornos</clase>
+            <clase hora="12:30">BBDD</clase>
+            <clase hora="13:30">BBDD</clase>
+        </dia>
+    </semana>
+</horario>
+
+<horario>
+    <modulo nombre="LM">
+        <horas>
+            <hora dia="lunes">9:00</hora>
+            <hora dia="Miercoles">10:00</hora>
+            <hora dia="Miercoles">11:30</hora>
+        </horas>
+    </modulo>
+</horario>
