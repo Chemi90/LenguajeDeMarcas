@@ -25,9 +25,11 @@
   <!ELEMENT h1 (#PCDATA | a | img)*>
   <!ATTLIST h1 id CDATA #IMPLIED class CDATA #IMPLIED style CDATA #IMPLIED align CDATA #IMPLIED lang CDATA #IMPLIED dir CDATA #IMPLIED>
   <!ELEMENT h2 (#PCDATA | a | img)*>
-  <!ATTLIST h1 id CDATA #IMPLIED class CDATA #IMPLIED style CDATA #IMPLIED align CDATA #IMPLIED lang CDATA #IMPLIED dir CDATA #IMPLIED>
+  <!ATTLIST h2 id CDATA #IMPLIED class CDATA #IMPLIED style CDATA #IMPLIED align CDATA #IMPLIED lang CDATA #IMPLIED dir CDATA #IMPLIED>
   <!ELEMENT h3 (#PCDATA | a | img)*>
-  <!ATTLIST h1 id CDATA #IMPLIED class CDATA #IMPLIED style CDATA #IMPLIED align CDATA #IMPLIED lang CDATA #IMPLIED dir CDATA #IMPLIED>
+  <!ATTLIST h3 id CDATA #IMPLIED class CDATA #IMPLIED style CDATA #IMPLIED align CDATA #IMPLIED lang CDATA #IMPLIED dir CDATA #IMPLIED>
+  <!ELEMENT h4 (#PCDATA | a | img)*>
+  <!ATTLIST h4 id CDATA #IMPLIED class CDATA #IMPLIED style CDATA #IMPLIED align CDATA #IMPLIED lang CDATA #IMPLIED dir CDATA #IMPLIED>
   <!ELEMENT hr EMPTY>
 ]>
 
@@ -63,5 +65,7 @@
         </ol>
         <h2>Encabezados y párrafos</h2>
         <h3>Encabezado de nivel 3</h3>
+        <h4>Encabezado de nivel 4</h4>
     </body>
 </html>
+
