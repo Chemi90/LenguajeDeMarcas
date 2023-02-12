@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!DOCTYPE html [
+  <!ELEMENT html (head, body)>
+  <!ELEMENT head (title)>
+  <!ELEMENT body (h1 | h2 | h3 | h4 | p | a | ul | ol | img | strong | br | hr)*>
+  <!ELEMENT title (#PCDATA)>
+  <!ELEMENT a (#PCDATA)>
+  <!ATTLIST a href CDATA #IMPLIED>
+  <!ELEMENT p (#PCDATA)>
+  <!ELEMENT h1 (#PCDATA)>
+  <!ELEMENT h2 (#PCDATA)>
+  <!ELEMENT h3 (#PCDATA)>
+  <!ELEMENT h4 (#PCDATA)>
+  <!ELEMENT img EMPTY>
+  <!ATTLIST img src CDATA #REQUIRED width CDATA #IMPLIED height CDATA #IMPLIED alt CDATA #IMPLIED>
+  <!ELEMENT ul (li)*>
+  <!ELEMENT ol (li)*>
+  <!ELEMENT li (#PCDATA)>
+  <!ELEMENT strong (#PCDATA)>
+  <!ELEMENT br EMPTY>
+  <!ELEMENT hr EMPTY>
+]>
+
+<html>
+  <head>
+    <title>Ejemplo de uso de etiquetas HTML</title>
+  </head>
+  <body>
+    <h1>Bienvenidos a mi página web</h1>
+    <p>Este es un ejemplo de cómo utilizar las etiquetas HTML para dar formato a un texto.</p>
+    <h2>Enlaces</h2>
+    <p>Puedes utilizar la etiqueta para crear enlaces a otras páginas web:</p>
+    <ul>
+        <li>
+            <a href="https://www.google.com">Google</a>
+            Primer enlace
+        </li>
+      <li><a href="https://www.wikipedia.org">Wikipedia</a>Segundo enlace</li>
+    </ul>
+    <h2>Imágenes</h2>
+    <img src="https://via.placeholder.com/150x150" alt="Imagen de ejemplo" width="150" height="150">
+    <h2>Listas</h2>
+    <ul>
+      <li>Uno</li>
+      <li>Dos</li>
+      <li>Tres</li>
+    </ul>
+    <ol>
+      <li>Primero</li>
+      <li>Segundo</li>
+      <li>Tercero</li>
+    </ol>
+    <h2>Encabezados y párrafos</h2>
+    <h3>Encabezado de nivel 3</h3>
+  </body>
+</html>
