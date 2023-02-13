@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!DOCTYPE html [
+  <!ELEMENT html (head, body)>
+  <!ELEMENT head (title | base | link | style | meta | script)*>
+  <!ATTLIST head profile CDATA #IMPLIED 
+            lang CDATA #IMPLIED 
+            dir CDATA #IMPLIED>
+  <!ELEMENT body (h1 | h2 | h3 | h4 | p | a | ul | ol | img | strong | br | hr | header |nav |main |section |article | aside | footer | h5 | h6 | table | form | tr | th | td | input |select | option | textarea | label | pre | figure | figcaption | address | button | video | audio | map | area | fieldset | legend | datalist | keygen )*>
+  <!ATTLIST body onload CDATA #IMPLIED 
+            onunload CDATA #IMPLIED 
+            background CDATA #IMPLIED 
+            bgcolor CDATA #IMPLIED 
+            text CDATA #IMPLIED 
+            link CDATA #IMPLIED 
+            vlink CDATA #IMPLIED 
+            alink CDATA #IMPLIED>
+  <!ELEMENT title (#PCDATA)>
+  <!ATTLIST title dir CDATA #IMPLIED 
+            lang CDATA #IMPLIED>
+  <!ELEMENT a (#PCDATA)>
+  <!ATTLIST a href CDATA #IMPLIED 
+            targert CDATA #IMPLIED 
+            rel CDATA #IMPLIED 
+            title CDATA #IMPLIED 
+            hrefflang CDATA #IMPLIED 
+            type CDATA #IMPLIED>
+  <!ELEMENT p (#PCDATA | hr | br | strong | em | a | img | ol | ul | li | code | blockquote | q | abbr | sub | sup)*>
+  <!ATTLIST p align CDATA #IMPLIED 
+            class CDATA #IMPLIED 
+            id CDATA #IMPLIED 
+            style CDATA #IMPLIED 
+            title CDATA #IMPLIED>
+  <!ELEMENT strong (#PCDATA)>
+  <!ATTLIST strong class CDATA #IMPLIED 
+            id CDATA #IMPLIED 
+            style CDATA #IMPLIED 
+            title CDATA #IMPLIED 
+            lang CDATA #IMPLIED 
+            dir CDATA #IMPLIED>
+  <!ELEMENT br EMPTY>
+  <!ELEMENT img EMPTY>
+  <!ATTLIST img src CDATA #REQUIRED 
+            width CDATA #IMPLIED 
+            height CDATA #IMPLIED alt CDATA #IMPLIED style CDATA #IMPLIED class CDATA #IMPLIED id CDATA #IMPLIED longdesc CDATA #IMPLIED usemap CDATA #IMPLIED border CDATA #IMPLIED>
+  <!ELEMENT ol (li)*>
+  <!ATTLIST ol type CDATA #IMPLIED 
+            start CDATA #IMPLIED 
+            reversed CDATA #IMPLIED 
+            compact CDATA #IMPLIED 
+            class CDATA #IMPLIED 
+            id CDATA #IMPLIED 
+            style CDATA #IMPLIED>
+  <!ELEMENT ul (li)*>
+  <!ATTLIST ul type CDATA #IMPLIED 
+            start CDATA #IMPLIED 
+            id CDATA #IMPLIED 
+            class CDATA #IMPLIED 
+            lang CDATA #IMPLIED 
+            dir CDATA #IMPLIED 
+            style CDATA #IMPLIED>
+  <!ELEMENT li (#PCDATA | h1 | h2 | h3 | h4 | h5 | h6 | p | ul | ol | li | a | img | table | form | strong | br | blockquote | q)*>
+  <!ATTLIST li value CDATA #IMPLIED 
+            type CDATA #IMPLIED>
+  <!ELEMENT h1 (#PCDATA | a | img)*>
+  <!ATTLIST h1 id CDATA #IMPLIED 
+            class CDATA #IMPLIED 
+            style CDATA #IMPLIED 
+            align CDATA #IMPLIED 
+            lang CDATA #IMPLIED 
+            dir CDATA #IMPLIED>
+  <!ELEMENT h2 (#PCDATA | a | img)*>
+  <!ATTLIST h2 id CDATA #IMPLIED 
+            class CDATA #IMPLIED 
+            style CDATA #IMPLIED 
+            align CDATA #IMPLIED 
+            lang CDATA #IMPLIED 
+            dir CDATA #IMPLIED>
+  <!ELEMENT h3 (#PCDATA | a | img)*>
+  <!ATTLIST h3 id CDATA #IMPLIED 
+            class CDATA #IMPLIED 
+            style CDATA #IMPLIED 
+            align CDATA #IMPLIED 
+            lang CDATA #IMPLIED 
+            dir CDATA #IMPLIED>
+  <!ELEMENT h4 (#PCDATA | a | img)*>
+  <!ATTLIST h4 id CDATA #IMPLIED 
+            class CDATA #IMPLIED 
+            style CDATA #IMPLIED 
+            align CDATA #IMPLIED 
+            lang CDATA #IMPLIED 
+            dir CDATA #IMPLIED>
+  <!ELEMENT hr EMPTY>
+]>
+<--He Añadido al dtd todas las posibilidades que he podido encontrar respecto a etiquetas como atributos de dichas etiquetas.-->
+<html>
+    <head>
+        <title>Ejemplo de uso de etiquetas HTML</title>
+    </head>
+    <body>
+        <h1>Bienvenidos a mi página web</h1>
+        <p>Este es un ejemplo de cómo utilizar las etiquetas HTML <hr/>para dar formato a un texto.</p>
+        <h2>Enlaces</h2>
+        <p>Puedes utilizar la etiqueta para crear enlaces <br/>a otras páginas web:</p>
+        <ul>
+            <li>
+                <a href="https://www.google.com">Google</a>
+                Primer enlace
+            </li>
+            <li>
+                <a href="https://www.wikipedia.org">Wikipedia</a>Segundo enlace</li>
+        </ul>
+        <h2>Imágenes</h2>
+        <img src="https://via.placeholder.com/150x150" alt="Imagen de ejemplo" width="150" height="150"/>
+        <h2>Listas</h2>
+        <ul>
+            <li>Uno</li>
+            <li>Dos</li>
+            <li>Tres</li>
+        </ul>
+        <ol>
+            <li>Primero</li>
+            <li>Segundo</li>
+            <li>Tercero</li>
+        </ol>
+        <h2>Encabezados y párrafos</h2>
+        <h3>Encabezado de nivel 3</h3>
+        <h4>Encabezado de nivel 4</h4>
+    </body>
+</html>
+
