@@ -91,7 +91,7 @@
             dir CDATA #IMPLIED>
   <!ELEMENT hr EMPTY>
 ]>
-
+<--He Añadido al dtd todas las posibilidades que he podido encontrar respecto a etiquetas como atributos de dichas etiquetas.-->
 <html>
     <head>
         <title>Ejemplo de uso de etiquetas HTML</title>
