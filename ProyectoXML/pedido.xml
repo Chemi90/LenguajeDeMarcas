@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<pedido id="74823729">    
+    <cliente>Francisco Romero</cliente>    
+    <contenido>
+        <articulo>PlayStation 5</articulo>
+        <articulo>Howgarts Legacy</articulo>
+        <articulo>PSVR</articulo>
+    </contenido>    
+    <entrega>        
+        <tipovia>Calle</tipovia>        
+        <lugar>Huerta</lugar>        
+        <numero>3</numero>        
+        <piso>1</piso>        
+        <letra>b</letra>        
+        <fecha>19/1/23</fecha>    
+    </entrega>
+</pedido>
+
