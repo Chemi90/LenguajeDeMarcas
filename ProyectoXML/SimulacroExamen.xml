@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE notas [
+  <!ELEMENT notas (alumno)*>
+  <!ELEMENT alumno (nombre, apellido, dni, modulos)*>
+  <!ELEMENT nombre (#PCDATA) >
+  <!ELEMENT apellido (#PCDATA) >
+  <!ELEMENT dni (#PCDATA) >
+  <!ELEMENT modulos (#PCDATA | modulo)*>
+  <!ELEMENT modulo (#PCDATA)>
+  <!ATTLIST modulo nombre CDATA #REQUIRED >
+]>
+
+
+
+<notas>
+    <alumno>
+        <nombre>paco</nombre>
+        <apellido>ruiz</apellido>
+        <dni>4561468</dni>
+        <modulos>
+            <modulo nombre="programacion">5</modulo>
+            <modulo nombre="LM">4</modulo>
+            <modulo nombre="entornos">3</modulo>
+        </modulos>
+    </alumno>
+    <alumno>
+        <nombre>pepe</nombre>
+        <apellido>ramirez</apellido>
+        <dni>145646</dni>
+        <modulos>
+            <modulo nombre="programacion">8</modulo>
+            <modulo nombre="LM">9</modulo>
+            <modulo nombre="entornos">10</modulo>
+        </modulos>
+    </alumno>
+    <alumno>
+        <nombre>vic</nombre>
+        <apellido>rodriguez</apellido>
+        <dni>4681</dni>
+        <modulos>
+            <modulo nombre="programacion">5</modulo>
+            <modulo nombre="LM">3</modulo>
+            <modulo nombre="entornos">2</modulo>
+        </modulos>
+    </alumno>
+    <alumno>
+        <nombre>isa</nombre>
+        <apellido>perez</apellido>
+        <dni>423426t</dni>
+        <modulos>
+            <modulo nombre="programacion">9</modulo>
+            <modulo nombre="LM">8</modulo>
+            <modulo nombre="entornos">9</modulo>
+        </modulos>
+    </alumno>
+</notas>
+
