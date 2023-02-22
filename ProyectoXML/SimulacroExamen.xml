@@ -28,9 +28,9 @@
         <apellido>ramirez</apellido>
         <dni>145646</dni>
         <modulos>
-            <modulo nombre="programacion">8</modulo>
-            <modulo nombre="LM">9</modulo>
-            <modulo nombre="entornos">10</modulo>
+            <modulo nombre="FOL">8</modulo>
+            <modulo nombre="futbol">9</modulo>
+            <modulo nombre="baloncesto">10</modulo>
         </modulos>
     </alumno>
     <alumno>
@@ -38,9 +38,9 @@
         <apellido>rodriguez</apellido>
         <dni>4681</dni>
         <modulos>
-            <modulo nombre="programacion">5</modulo>
-            <modulo nombre="LM">3</modulo>
-            <modulo nombre="entornos">2</modulo>
+            <modulo nombre="cocina">5</modulo>
+            <modulo nombre="limpieza">3</modulo>
+            <modulo nombre="quimica">2</modulo>
         </modulos>
     </alumno>
     <alumno>
@@ -48,9 +48,9 @@
         <apellido>perez</apellido>
         <dni>423426t</dni>
         <modulos>
-            <modulo nombre="programacion">9</modulo>
-            <modulo nombre="LM">8</modulo>
-            <modulo nombre="entornos">9</modulo>
+            <modulo nombre="matematicas">9</modulo>
+            <modulo nombre="lengua">8</modulo>
+            <modulo nombre="biologia">9</modulo>
         </modulos>
     </alumno>
 </notas>

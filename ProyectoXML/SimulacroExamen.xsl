@@ -39,28 +39,47 @@
                     flex-direction: column;
                     align-items: center;
                     }
-                    h1{
-                    margin: 2cm;
-                    }
-                    p{
-                    text-align:center;
-                    }
-                    tr.top td{
-                    background-color:yellow;
-                    }
+                    h3 {
+  display: inline-block;
+}
+
+h3:nth-of-type(2) {
+  float: right;
+}
+                    
                 </style>
             </head>
             <body>
                 <h1>Simulacro de examen NOTAS</h1>
+                <xsl:for-each select="/notas/alumno">
+                    
+                    <h3>
+                        <xsl:value-of select="nombre"/>
+                    </h3>
+                    <h3>
+                        <xsl:value-of select="apellido"/>
+                    </h3>
+                    <h3>
+                        <xsl:value-of select="dni"/>
+                    </h3>
+
+                    <xsl:for-each select="modulos/modulo">
+                    
+                        <table>
+                            <tr>
+                                <td>
+                                    <xsl:value-of select="@nombre"/>
+                                </td>
+                                <td>
+                                    <xsl:value-of select="."/>
+                                </td>
+                            </tr>
+                        </table>
+                    
+                    </xsl:for-each>
+                    
+                </xsl:for-each>
                 
-                <table>
-                    <tr>
-                        <th>Nombre</th>
-                        <th>Apellidos</th>
-                        <th>DNI</th>
-                        <th>Modulos</th>
-                    </tr>
-                </table>
             </body>
         </html>
     </xsl:template>
