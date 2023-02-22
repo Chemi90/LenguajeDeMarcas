@@ -21,6 +21,7 @@
             <modulo nombre="programacion">5</modulo>
             <modulo nombre="LM">4</modulo>
             <modulo nombre="entornos">3</modulo>
+            <modulo nombre="sistemas">3</modulo>
         </modulos>
     </alumno>
     <alumno>

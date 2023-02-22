@@ -41,7 +41,7 @@
                     /*align-items: center;*/
                     margin-left:30%;
                     }
-                    div {
+                    div.tablas {
                     display: flex;
                     flex-direction: row;
                     }
@@ -49,38 +49,43 @@
                     padding: 10px;
                     margin: 10px;
                     }
-                    
+                    div.bucleGeneral{
+                    magin:10px;
+                    padding:10px;
+                    padding-top:50px;
+                    }
                 </style>
             </head>
             <body>
                 <h1>Simulacro de examen NOTAS</h1>
                 <xsl:for-each select="/notas/alumno">
-                    <div>
-                        <h3>
-                            <xsl:value-of select="nombre"/>
-                        </h3>
-                        <h3>
-                            <xsl:value-of select="apellido"/>
-                        </h3>
-                        <h3>
-                            <xsl:value-of select="dni"/>
-                        </h3>
+                    <div  class="bucleGeneral">
+                        <div class="tablas">
+                            <h3>
+                                <xsl:value-of select="nombre"/>
+                            </h3>
+                            <h3>
+                                <xsl:value-of select="apellido"/>
+                            </h3>
+                            <h3>
+                                <xsl:value-of select="dni"/>
+                            </h3>
+                        </div>
+                        <xsl:for-each select="modulos/modulo">
+                    
+                            <table>
+                                <tr>
+                                    <td>
+                                        <xsl:value-of select="@nombre"/>
+                                    </td>
+                                    <td>
+                                        <xsl:value-of select="."/>
+                                    </td>
+                                </tr>
+                            </table>
+                    
+                        </xsl:for-each>
                     </div>
-                    <xsl:for-each select="modulos/modulo">
-                    
-                        <table>
-                            <tr>
-                                <td>
-                                    <xsl:value-of select="@nombre"/>
-                                </td>
-                                <td>
-                                    <xsl:value-of select="."/>
-                                </td>
-                            </tr>
-                        </table>
-                    
-                    </xsl:for-each>
-                    
                 </xsl:for-each>
                 
             </body>
