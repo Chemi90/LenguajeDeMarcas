@@ -36,33 +36,36 @@
                     }
                     body{
                     display: flex;
+                    justify:center;
                     flex-direction: column;
-                    align-items: center;
+                    /*align-items: center;*/
+                    margin-left:30%;
                     }
-                    h3 {
-  display: inline-block;
-}
-
-h3:nth-of-type(2) {
-  float: right;
-}
+                    div {
+                    display: flex;
+                    flex-direction: row;
+                    }
+                    h3{
+                    padding: 10px;
+                    margin: 10px;
+                    }
                     
                 </style>
             </head>
             <body>
                 <h1>Simulacro de examen NOTAS</h1>
                 <xsl:for-each select="/notas/alumno">
-                    
-                    <h3>
-                        <xsl:value-of select="nombre"/>
-                    </h3>
-                    <h3>
-                        <xsl:value-of select="apellido"/>
-                    </h3>
-                    <h3>
-                        <xsl:value-of select="dni"/>
-                    </h3>
-
+                    <div>
+                        <h3>
+                            <xsl:value-of select="nombre"/>
+                        </h3>
+                        <h3>
+                            <xsl:value-of select="apellido"/>
+                        </h3>
+                        <h3>
+                            <xsl:value-of select="dni"/>
+                        </h3>
+                    </div>
                     <xsl:for-each select="modulos/modulo">
                     
                         <table>
