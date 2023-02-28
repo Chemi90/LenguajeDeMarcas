@@ -54,6 +54,7 @@
                     padding:10px;
                     padding-top:50px;
                     }
+       
                 </style>
             </head>
             <body>
@@ -71,20 +72,38 @@
                                 <xsl:value-of select="dni"/>
                             </h3>
                         </div>
-                        <xsl:for-each select="modulos/modulo">
+                        
                     
-                            <table>
+                        <table>
+                            <xsl:for-each select="modulos/modulo">
                                 <tr>
                                     <td>
                                         <xsl:value-of select="@nombre"/>
-                                    </td>
-                                    <td>
-                                        <xsl:value-of select="."/>
-                                    </td>
+                                    </td>    
+                                    <xsl:choose>                                         
+                                        <xsl:when test=". &lt; 5">
+                                            <td style="background-color: red;">
+                                                <xsl:value-of select="."/>
+                                            </td>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <td style="background-color: green;">
+                                                <xsl:value-of select="."/>
+                                            </td>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+         
                                 </tr>
-                            </table>
+                            </xsl:for-each>
+                            <tr>
+                                <td>Nota Media</td>
+                                <td>
+                                    <xsl:value-of select=" format-number(sum(modulos/modulo) div count(modulos/modulo), '#.##')"/>
+                                </td>
+                            </tr>
+                        </table>
                     
-                        </xsl:for-each>
+                        
                     </div>
                 </xsl:for-each>
                 
